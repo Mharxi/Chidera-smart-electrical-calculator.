@@ -1,0 +1,19 @@
+TEMPERATURE MONITOR AND ALARM CHECKER — SAMPLE SESSION
+
+Enter the maximum safe temperature (C): 80
+Enter temperature reading 1 (C): 65
+Enter temperature reading 2 (C): 72
+Enter temperature reading 3 (C): 85
+Enter temperature reading 4 (C): 70
+Enter temperature reading 5 (C): 78
+
+===== TEMPERATURE REPORT =====
+Readings: [65.0, 72.0, 85.0, 70.0, 78.0]
+Highest temperature: 85.00 C
+Lowest temperature: 65.00 C
+Average temperature: 74.00 C
+ALARM: Unsafe temperature reading(s) detected!
+Readings above the safe limit: [85.0]
+AVERAGE STATUS: The average temperature is within the safe limit.
+
+NOTE: 80 C is an example threshold only. Use the machine manufacturer's specified limit.
